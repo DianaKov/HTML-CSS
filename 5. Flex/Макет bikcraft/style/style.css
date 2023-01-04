@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap');
+body{
+    margin: 0;
+}
+/*First section*/
+.main{
+    background-color: black;
+    color: #FFF;
+    padding-left: 220px;
+    padding-right: 140px;
+    height: 85vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.header{
+    display:inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 18px;
+    width: 25%;
+    padding-right: 80px;
+}
+.header a{
+    text-decoration: none;
+    color: #FFF;
+}
+.logo {
+    font-size: 36px;
+}
+.container{
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.container img{
+    height:600px;
+    padding-left: 80px;
+}
+h1{
+    font-weight: 600;
+    font-size: 54px;
+    padding-top: 80px;
+}
+.dot{
+    color:#F6AD09
+}
+.container p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+button{
+    background-color: #F6AD09;
+    border-radius: 5px;
+    padding: 10px 28px;
+}
+button a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+/*Second section*/
+.bikcraft{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 4vh;
+}
+.bikcraft h1{
+    margin-left: 220px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+.card{
+    height: 480px;
+}
+h2{
+    font-size: 32px;
+    line-height: 40px;
+    margin: 10px;
+}
+.cards div p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #595959;
+    padding-left: 33px;
+    margin: 0;
+}
+.name{
+    display: flex;
+}
+
+/*Third section*/
+.description{
+    display: flex;
+    padding-left: 220px;
+    margin-top: 15vh;
+    background-color: #000;
+    height: 90vh;
+    color: #B2B2B2;
+}
+.text{
+    display: flex;
+}
+.txt{
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    height: 750px;
+    width: 600px;
+    padding-right: 110px;
+    margin-top: -8vh;
+}
+.descriptionRight{
+    margin-top: 3vh;
+    padding-right: 15vh;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
+.descriptionRight h1{
+    padding: 0;
+    margin: 10px 0 25px 0;
+    font-size: 44px;
+    line-height: 48px;
+    font-family: 'Poppins';
+    color:#FFF;
+}
+.firstText{
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+}
+.secondText{
+    font-weight: 400;
+    margin: 0;
+}
+
+h3{
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin: 23px 0 40px 0;
+    color: #FFBB00;
+    border-bottom: 3px #FFB742 solid;
+    width: 38vh;
+}
+h4{
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin: 0 0 0 5px;
+    color: #FFFFFF;
+}
+.txt div p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    width:32vh;
+}
+
+/*Fourth section*/
+.links h1{
+    padding-left: 220px;
+}
+.linksBox{
+    display: flex;
+    width: 97%;
+    margin: 0 auto;
+}
+.link img{
+    padding-bottom: 7px;
+}
+/*Fifth Section*/
+.bg{
+    display: flex;
+    margin-top: 15vh;
+}
+.bg div{
+    background-color: #FFBB00;
+    padding-top: 15rem;
+    padding-left: 6rem;
+    padding-right: 17rem;
+}
+.quote{
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+    color: #332200;
+    margin: -1.7rem;
+}
+.bg>img{
+    width:700px;
+}
+.symbol1, .symbol2{
+    width:40px;
+}
+.symbol1{
+    margin-left: -4rem;
+}
+.symbol2{
+    transform: rotate(-180deg);
+    float:right;
+}
+.bgRight{
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 150px;
+}
+.author{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #664400;
+    margin: 3rem -1.7rem;
+}
+/*sixth Section*/
+.price{
+    background-color: #161616;
+    color:#FFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+.price h1{
+    font-size: 64px;
+    line-height: 72px;
+    color: #FFF;
+    padding-left: 220px;
+}
+.priceText{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.priceText div{
+    background-color: #000;
+    padding: 30px;
+    height: fit-content;
+}
+.textRight{
+    color: #9C9C9C;
+}
+.textRight2{
+    color: #FFBB00;
+}
+.textRight, .textRight2, .textRight span, .textRight2 span{
+    font-size: 36px;
+    line-height: 48px;
+    margin: 0;
+}
+.textRight span, .textRight2 span{
+    color: #FFFFFF;
+    padding-left: 8rem;
+}
+.textLeft{
+    font-size: 12px;
+    line-height: 16px;
+    color: #9C9C9C;
+    text-align: end;
+    margin: 0;
+}
+ul.counter {
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 0;
+}
+ul.counter li:before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    background: url(../img/rectangle.svg);
+    background-size: contain;
+    margin-right: 5px;
+}
+.btn2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #CCCCCC;
+    background-color: #2E2E2E;
+    margin-top: 3rem;
+}
+
+/*footer*/
+footer{
+    background-color: #000;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    padding-left: 10rem;
+    padding-bottom: 3rem;
+}
+.footer{
+    display:flex;
+    padding-bottom: 3rem;
+}
+footer .logo{
+    padding-right: 13rem;
+}
+h5{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 4rem 0 2rem 0;
+}
+.social{
+    display: flex;
+}
+.social img{
+    padding-right: 2rem;
+}
+.contact{
+    padding-right: 15rem;
+}
+footer p, footer ul, footer a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    color: #B2B2B2;
+}
+footer a{
+    text-decoration: none;
+}
+footer ul{
+    list-style: none;
+}
+footer li:hover, footer p:hover, footer a:hover{
+    color:#FFBB00;
+}
