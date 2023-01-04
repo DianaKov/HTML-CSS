@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Input</title>
+</head>
+<body>
+    <header>Intake Main Flow</header>
+    <section>
+        <p class="help-block"><span>*</span> Mandatory field</p>
+        <h1>Information</h1>
+        <div class="container">
+            <form>
+                <p>
+                    <label>Intake Type<span>* (select)</span></label><br>
+                    <select required>
+                        <option value="Referral">Referral</option>
+                        <option value="Referral">Referral_1</option>
+                        <option value="Referral">Referral_2</option>
+                        <option value="Referral">Referral_3</option>
+                    </select>
+                </p>
+                <p>
+                    <label>phone</label><br>
+                    <input type="text" required>
+                </p>
+                <p>
+                    <label>email</label><br>
+                    <input type="text" required>
+                </p>
+                <p>
+                    <label>Application Registration (Optional)</label><br>
+                    <select id="registr">
+                        <option value="APP0000116"><span>APP0000116</span></option>
+                        <option value="APP0000117">APP0000116</option>  
+                        <option value="APP0000118">APP0000116</option>
+                        <option value="APP0000119">APP0000116</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Additional Information Requested Date (Optional)</label><br>
+                    <input type="date" value="2021-11-05" min="2021-01-01" max="2021-12-31">
+                </p>
+                <p>
+                    <label>Remaining Days Before Referral is Purged (Optional)</label><br>
+                    <input type="text" placeholder="13"   >
+                </p>
+                <p>
+                    <label>Fee Payment Date (Optional)</label><br>
+                    <input type="date"value="2021-11-05" min="2021-01-01" max="2021-12-31">
+                </p>
+                <p>
+                    <input type="checkbox" class="checkbox-input" value="Remember me" />
+                    <label class="checkbox-label">Application Fee Processed</label>
+                </p>
+            </form>
+            <form>
+                <p>
+                    <label>Enrollment Initiation Date jquery</label><br>
+                    <input type="date"value="2021-11-05" min="2021-01-01" max="2021-12-31" required style="background-color: #EFEFEF;">
+                </p>
+                <p>
+                    <label>Application Category<span>*</span></label><br>
+                    <select required>
+                        <option value="Child Support">Child Support</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Enrollment Submission Date (Optional)</label><br>
+                    <input type="date"value="2021-11-05" min="2021-01-01" max="2021-12-31" style="background-color: #EFEFEF;">
+                </p>
+                <p class="checkbox-input-center">
+                    <input type="checkbox" class="checkbox-input" value="Remember me">
+                    <label class="checkbox-label">Purged</label>
+                </p>
+                <p>
+                    <label>Exempt from Paternity (Optional)   (select)</label><br>
+                    <select>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Enrollment Status (Optional)</label><br>
+                    <select>
+                        <option value="Worklisted">Worklisted</option>
+                    </select>
+                </p>
+            </form>
+        </div>
+    </section>
+    <img src="./img/icon_line.svg" class="line">
+    <section>
+        <h1>Maternity Information</h1>
+        <div class="container">
+            <form>
+                <p class="checkbox-label-bottom">
+                    <input type="checkbox" class="checkbox-input" value="Remember me">
+                    <label class="checkbox-label">Are you requesting child support services for an
+                        unborn child?</label>
+                </p>
+            </form>
+            <form>
+                <p>
+                    <label>Other known biological parent? (Optional)</label><br>
+                    <select>
+                        <option value="None">None</option>
+                    </select>
+                </p>
+            </form>
+        </div>  
+    </section>
+    <img src="./img/icon_line.svg" class="line">
+    <section>
+        <h1>Official Use</h1>
+        <div class="container">
+            <form>
+                <p>
+                    <label>Case Category (select)</label><br>
+                    <select>
+                        <option value="None">Active IV-A</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Arrears Only Indicator (Optional)</label><br>
+                    <select class="default">
+                        <option value="None" >None</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Assigned County of Ownership (Optional)</label><br>
+                    <select class="default">
+                        <option value="None">None</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Intergovermental Case Status (details)</label><br>
+                    <select class="default">
+                        <option value="None">None</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Special Handling Indicator for Applicant (Optional)</label><br>
+                    <select class="default">
+                        <option value="None">None</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Special Handling Indicator for Other Parent <br>(Optional)</label><br>
+                    <select class="default">
+                        <option value="None">None</option>
+                    </select>
+                </p>
+            </form>
+            <form>
+                <p>
+                    <label>IV-D Indicator<span>*</span></label><br>
+                    <select>
+                        <option value="None">Non-IV-D</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Intergovernmental Case Category (Optional)</label><br>
+                    <select class="default">
+                        <option value="None">None</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Intergovernmental Case Type (Optional)</label><br>
+                    <select class="default">
+                        <option value="None">None</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Case Number</label><br>
+                    <input type="search" placeholder="Search Case Number" />
+                </p>
+                <p>
+                    <label>Referral Number</label><br>
+                    <input type="search" placeholder="Search Referral Number" />
+                </p>
+            </form>
+        </div> 
+    </section>
+    <img src="./img/icon_line.svg" class="line">
+    <section>
+        <h1>System Information</h1>
+        <div class="container">
+            <form>
+                <p>
+                    <label>Enrollment Taken by User </label><br>
+                    <input type="search" placeholder="Search Input" required />
+                </p>
+                <p>
+                    <label>Worker (Optional)</label><br>
+                    <input type="search" placeholder="Search Input" />
+                </p>
+            </form>
+            <form>
+                <p>
+                    <label>Intake Supervisor (Optional)</label><br>
+                    <input type="search" placeholder="Search" />
+                </p>
+                <p>
+                    <label>Owner (Optional)</label><br>
+                    <input id="registr" type="search" placeholder="Rajaneesh Banal" />
+                </p>
+            </form>
+        </div>
+    </section>
+    <img src="./img/icon_line.svg" class="line">
+    <form>
+        <input type="submit" value="Next" />
+    </form>
+</body>
+</html>
