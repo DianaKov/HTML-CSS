@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=M+PLUS+1&family=Marcellus&display=swap');
+body{
+    margin:0;
+}
+.logo{
+    font-family: 'M PLUS 1';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: 0.1em;
+    color: #3E45E8;
+    text-align: center;
+    margin: 10px;
+}
+.logo span{
+    color: #E8C23E;
+}
+.banner{
+    background-image: url(../img/image1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+}
+.banner img{
+    padding: 206px 27px 305px 80px;
+}
+.banner p {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 76px;
+    color: #FFFFFF;
+    padding-top: 144px;
+    width: 1036px;
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 63px;
+    color: #000000;
+    margin-bottom: 0;
+}
+.places{
+    margin-left: 110px;
+    margin-right: 110px;
+    font-family: 'Inter', sans-serif;
+}
+.places h1{
+    text-align: left;
+}
+hr{
+    background: #3E45E8;
+    border: 3px solid #3E45E8;
+    width: 402px;
+}
+.places hr{
+    float:left;
+    position: absolute;
+}
+.place{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.place div h2{
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #1E8DF2;
+}
+.place div p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #E8C23E;
+    padding-left: 10px;
+}
+.place div{
+    border-radius: 30px;
+    height: 481px;
+    box-shadow: 0 0 30px 30px #E5E5E5;
+}
+.map{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Inter', sans-serif;
+}
+.map img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.map p{
+    width: 591px;
+    height: 121px;
+    background: #2A61F0;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 101px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+footer{
+    background-color: #2F4A4B;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+footer>p>a {
+    text-decoration: none;
+    font-family: 'Marcellus', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    color:#A89D9D;
+}
