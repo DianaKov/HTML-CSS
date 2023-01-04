@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+html {
+    background-color: #E5E5E5;
+}
+body{
+    margin:0;
+    font-family:'Roboto';
+}
+.main {
+    display: flex; 
+}
+.leftside {
+    background-color: white;
+    padding: 100px;
+    z-index: 1;
+    padding-bottom: 0px;
+}
+.rightside {
+    margin-left: -129px;
+    margin-top: 11%;
+    z-index: 2;
+}
+.header > a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #4743E0;
+}
+.header {
+    float: right;
+}
+.description {
+    display: flex;
+    margin-top: 8%;
+    align-items: center;
+}
+h1{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 68px;
+    color: #42505C;
+    padding-right: 10%;
+    margin-bottom: 7px;
+}
+.description > p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #404040;
+    opacity: 0.99;
+}
+.rules{
+    color: #4743E0;
+}
+/*fffffffffffffffffffffffffffffff*/
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+    margin-bottom: 28px;
+}
+.account{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    justify-content: space-between;
+}
+.account > img{
+    height: 16px;
+    padding-top: 8px;
+
+}
+h3{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #333333;
+    margin: 0;
+    padding-top: 0;
+}
+input{
+    border: 1px solid #D1D1D1; /*цвет рамки*/
+    outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+    height: 48px; /* высота на свое усмотрение*/
+    width: 320px; /* ширина на свое усмотрение*/
+    color: #000000; /*цвет шрифта в обычном состоянии*/
+    font-size: 14px; /* Размер шрифта*/
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 20px;
+}
+.firstInfo{
+    padding-right: 29px;
+}
+.line{
+    width: 720px;
+}
+.remember{
+    display: flex;
+    align-items: center;
+}
+input[type="checkbox"]{
+    border: 1px solid #D1D1D1; /*цвет рамки*/
+    outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+    height: 24px; /* высота на свое усмотрение*/
+    width: 24px; /* ширина на свое усмотрение*/
+    opacity: 0.4;
+    margin-right: 18px;
+}
+input[type="submit"]{
+    border: 1px solid #4743E0;
+    outline: none;
+    width: 102px;
+    height: 48px;
+    background: #4743E0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0px;
+    letter-spacing: 0.25px;
+    color: #FFF;
+    margin-left: 338px;
+}
+.optionals{
+    color: #333333;
+    opacity: 0.34;
+}
+.number{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.form_radio_btn {
+    display: inline-block;
+}
+.form_radio_btn input[type=radio] {
+display: none;
+}
+.form_radio_btn label {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.25px;
+    border: 1px solid #D1D1D1;
+    user-select: none;
+    width: 75px;
+    height: 48px;
+    color: grey;
+}
+    
+/* Checked */
+ .form_radio_btn input[type=radio]:checked + label {
+        border-color:#4743E0;
+        color: #4743E0;
+ }

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+html{
+    background-color: #E5E5E5;
+}
+.fond{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    background-color: #FFF;
+    z-index: 1;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 95px;
+}
+body{
+    margin: 0;
+}
+.image{
+    z-index: 2;
+    justify-content: space-between;
+    margin-left: -370px;
+}
+h1{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 68px;
+    color: #42505C;
+    padding-top: 7%;
+}
+.text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #000;
+    margin-top: -22px;
+    margin-bottom: 20px;
+}
+.line1  {
+    height: 18px; /* Высота блока */
+    background: url(./img/Line\ 9.png) no-repeat;/* Параметры фона */
+    background-size: 400px;
+   }
+h3{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #333333;
+    margin: 0;
+    padding-top: 0;
+}
+.account{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+.account > img{
+    height: 16px;
+    padding-top: 8px;
+    margin-left: 295px;
+
+}
+
+form > a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #4743E0;
+}
+form > p{
+    margin: 0px;
+}
+input[type="text"], input[type="password"] {
+    border: 1px solid #D1D1D1; /*цвет рамки*/
+    outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+    height: 48px; /* высота на свое усмотрение*/
+    width: 300px; /* ширина на свое усмотрение*/
+    color: #000000; /*цвет шрифта в обычном состоянии*/
+    font-size: 14px; /* Размер шрифта*/
+    font-weight: 400;
+    line-height: 28px;
+}
+input[type="text"]{
+    opacity: 0.4;
+    background: url(../img/username.png) no-repeat center left 17px;
+    padding-left:50px;
+}
+input[type="password"]{
+    opacity: 0.7;
+    margin-top: -1px;
+    background: url(../img/key.png) no-repeat center left 17px;
+    padding-left:50px;
+    margin-bottom: 8px;
+}
+form > .line1{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+input[type="checkbox"]{
+    border: 1px solid #D1D1D1; /*цвет рамки*/
+    outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+    height: 24px; /* высота на свое усмотрение*/
+    width: 24px; /* ширина на свое усмотрение*/
+    opacity: 0.4;
+    margin-right: 18px;
+}
+.remember{
+    display: flex;
+    align-items: center;
+}
+input[type="submit"]{
+    border: 1px solid #4743E0;
+    outline: none;
+    width: 102px;
+    height: 48px;
+    background: #4743E0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #FFF;
+    margin-left: 98px;
+}
+.footer{
+    margin-top: 252px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+}
+.footer > p{
+    color: #333333;
+    opacity: 0.3;
+}
+.footer > a{
+    text-decoration: none;
+    color: #4743E0;
+}
