@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="leftside">
+            <div class="header">
+                <a href="#">Allready a member?</a>
+                <img src="../img/Vector1.png" alt="">
+            </div>
+            <div class="description">
+                <h1>Input your information</h1>
+                <p>We need you to help us with some basic<br> information for your 
+                    account creation. Here <br> are our <span class="rules">terms and conditins.</span> 
+                    Please read them carefully. We are GDRP compliiant</p>
+            </div>
+            <img src="../img/Line 71.png" class="line">
+            <div class="info">
+                <form method="GET" action="./index.php" class="firstInfo">
+                    <div class="account">
+                        <h3>First name</h3>
+                        <img src="../img/Vector.png" alt="question" title="Please enter your name">
+                    </div>
+                    <input type="text" placeholder="John" required>
+                    <div class="account">
+                        <h3>Company</h3>
+                        <img src="../img/Vector.png" alt="question" title="Please enter your company name">
+                    </div>
+                    <input type="text" placeholder="John Smith" required>
+                    <div class="account">
+                        <h3>Number of employees <span class="optionals"> (optional)</span></h3>
+                        <img src="../img/Vector.png" alt="question" title="How many employees are currently employed at your company?">
+                    </div>
+                    <div class="number">
+                        <div class="form_radio_btn">
+                            <input id="radio-1" type="radio" name="radio" value="1" checked>
+                            <label for="radio-1">0&#706;20</label>
+                        </div>
+                        <div class="form_radio_btn">
+                            <input id="radio-2" type="radio" name="radio" value="1" checked>
+                            <label for="radio-2">20&#706;50</label>
+                        </div>
+                        <div class="form_radio_btn">
+                            <input id="radio-3" type="radio" name="radio" value="1" checked>
+                            <label for="radio-3">50&#706;100</label>
+                        </div>
+                        <div class="form_radio_btn">
+                            <input id="radio-4" type="radio" name="radio" value="1" checked>
+                            <label for="radio-4">100&#706;...</label>
+                        </div>
+                    </div>
+                </form>
+                <form method="GET" action="./index.php" class="secondInfo">
+                    <div class="account">
+                        <h3>Last name</h3>
+                        <img src="../img/Vector.png" alt="question" title="Please enter your Last Name">
+                    </div>
+                    <input type="text" placeholder="Smit" required>
+                    <div class="account">
+                        <h3>Work email</h3>
+                        <img src="../img/Vector.png" alt="question" title="Enter your email address">
+                    </div>
+                    <input type="email" id="email" placeholder="John Smith" required>
+                    <div class="account">
+                        <h3>Phone number <span class="optionals">(optional)</span></h3>
+                        <img src="../img/Vector.png" alt="question" title="Please enter a valid phone number">
+                    </div>
+                    <input type="number" id="tentacles" name="tentacles" placeholder="+380 00 000" required>
+                </form>
+            </div>
+            <img src="../img/Line 71.png" class="line">
+            <div class="info">
+                <form method="GET" action="./index.php" class="firstInfo">
+                <div class="account">
+                    <h3>Password</h3>
+                    <img src="../img/Vector.png" alt="question" title="Please enter your username and password below to log in, or register for a new">
+                </div>
+                <input type="password" id="pwd" name="pwd">
+            </form>
+            <form method="GET" action="./index.php" class="secondInfo">
+                <div class="account">
+                    <h3>Confirm password</h3>
+                    <img src="../img/Vector.png" alt="question" title="Please enter your username and password below to log in, or register for a new">
+                </div>
+                <input type="password" id="pwd" name="pwd">
+            </form>
+            </div>
+            <img src="../img/Line 71.png" class="line">
+            <form method="GET" action="./index.php">
+                <p class="remember">
+                <input type="checkbox" value="Remember me" />
+                <label>I agree with <span class="rules">terms and conditins.</span></label>
+                <input type="submit" value="Register" />
+                </p>
+            </form>
+        </div>    
+        <div class="rightside">
+            <img src="../img/Layer 12.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
