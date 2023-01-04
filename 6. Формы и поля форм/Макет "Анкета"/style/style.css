@@ -1,0 +1,131 @@
+@import url(./normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&display=swap');
+:root{
+    background-color: #E5E5E5;
+}
+body{
+    font-family: 'Public Sans';
+    font-style: normal;
+    color: #171717;
+    width:60%;
+    margin:0 auto;
+    padding: 64px 48px 120px 64px;
+    background-color: white;
+}
+header{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 79px;
+}
+.help-block{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
+span{
+    color: #D83933;
+}
+h1{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 15px;
+    padding-bottom: 20x;;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+label{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 5px;
+}
+input, select{
+    margin-top:10px;
+    height: 40px;
+    border: 1px solid #ADADAD;
+    border-radius: 4px;
+    outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+    color: #000000; /*цвет шрифта в обычном состоянии*/
+    padding-left:8px;
+}
+input{
+    width: 430px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator{
+    padding-right: 12px;
+    opacity: 0;
+}
+input[type="date"]{
+	background:url("../img/icon_clendar.svg")  no-repeat 97% 50%;
+    color: #000;
+}
+
+select{
+    width: 438px;
+    appearance: none; /*-убираем стандартную стрелку*/
+    overflow: hidden;
+    background: url("../img/icon_arrow.svg") no-repeat 97% 50%;  /*-вставляем нужную*/
+}
+#registr{
+    color: #0050D8;
+}
+
+.checkbox-label { 
+    display: flex; 
+} 
+.checkbox-label::before { 
+    content: ''; 
+    width: 24px; 
+    height: 24px; 
+    margin-right: .5em; 
+    border: 1px solid #ADADAD;
+    border-radius: 4px;
+}   
+.checkbox-input { 
+    opacity: 0; 
+    position: absolute; 
+} 
+.checkbox-input:checked + .checkbox-label::before { 
+    background-color: #FF00FF; 
+    border: 1px solid #FF00FF;
+    content: url(../img/icon2.svg); 
+}
+.checkbox-input-center{
+    padding-top: 110px;
+    padding-bottom: 24px;
+}
+.line{
+    width: 906px;
+    height: 20px;
+}
+form > p{
+    margin: 20px 0;
+}
+/**/
+.checkbox-label-bottom{
+    padding-top:20px;
+}
+/**/
+input[type="submit"]{
+    background: #0050D8;
+    width: 75px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    float:right;
+}
+/**/
+.default{
+    color:  #747474;
+}
+input[type="search"]{
+    width:438px;
+    background:url("../img/icon_search.svg")  no-repeat 97% 50%;
+}
