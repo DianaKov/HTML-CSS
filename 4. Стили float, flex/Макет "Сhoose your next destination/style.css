@@ -1,0 +1,90 @@
+body{
+    margin: 0px auto;
+    max-width: 500px;
+}
+h1{
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 29.87px;
+    line-height: 114%;
+    line-height: 33.94px;
+    color: #020953;
+    margin-bottom: 0px;;
+}
+h2{
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 10.86px;
+    line-height: 267%;
+    line-height: 33.94px;
+    color: #060A3F;
+    margin-top: 0px;
+}
+p{
+    font-family: 'Roboto' sans-serif;
+    font-weight: 300;
+    font-size: 8.15px;
+    line-height: 12px;
+    padding-bottom: 20px;
+    color: #FFF;
+    position: absolute;/*текс вниз*/
+    bottom: 0px;/*текст вниз*/
+    text-align: center;
+    padding-left: 50px;
+    visibility:hidden; /*скрываем текст*/
+}
+p > span{
+    color: #FFC800;
+}
+div{
+    display: inline-block;
+    vertical-align: top;
+    height: 160.54px;
+    width: 143.57px;
+    padding-right: 11.54px;
+    padding-bottom: 21.04px;;
+    background-repeat: no-repeat;
+    position: relative;
+    transition:2s;
+    top: 0vh;
+}
+div:hover p{
+    visibility:visible; /*текст проявляеться*/
+}
+div:first-child{
+    background-image: url(../5_hw/img/1.png);
+}
+div:nth-child(2){
+    background-image: url(../5_hw/img/2.png);
+}
+div:nth-child(3){
+    background-image: url(../5_hw/img/3.png);
+}
+div:nth-child(4){
+    background-image: url(../5_hw/img/4.png);
+}
+div:nth-child(5){
+    background-image: url(../5_hw/img/5.png);
+}
+div:last-child{
+    background-image: url(../5_hw/img/6.png);
+}
+
+body:hover div:first-child{
+    top:20vh;
+}
+body:hover div:nth-child(2){
+    top:20vh;
+}
+body:hover div:nth-child(3){
+    top:20vh;
+}
+body:hover div:nth-child(4){
+    top:-20vh;
+}
+body:hover div:nth-child(5){
+    top:-20vh;
+}
+body:hover div:last-child{
+    top:-20vh;
+}
