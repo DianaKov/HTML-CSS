@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+body{
+    background-image: url(../assets/fondo4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header > img {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+section{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+button{
+    font-family: 'Irish Grover', cursive;
+    background: #C4C4C4;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    width: 260px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+.images > a> img{
+    width: 260px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+button:hover{
+    background-color: #00FF00;
+    box-shadow: 0px 0px 5px #00FF00;
+    transform: scale(1.2);
+}
+.images >a> img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 15px #00FF00;
+    border-radius: 15%;
+}
+.all{
+    float: right;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}

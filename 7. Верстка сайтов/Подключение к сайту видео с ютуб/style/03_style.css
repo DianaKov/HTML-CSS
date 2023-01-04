@@ -1,0 +1,17 @@
+body{
+    background-image: url(../assets/Frame1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+header > img {
+    width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+video{
+    height: 400px;
+    width: 600px;
+    margin-top: 5%;
+}
