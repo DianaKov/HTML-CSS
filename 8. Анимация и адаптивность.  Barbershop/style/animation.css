@@ -1,0 +1,45 @@
+/*section Galery*/
+.galery>div:nth-of-type(2), .galery>div:nth-of-type(3), .galery>div:first-of-type, .galery>div:last-of-type{
+    animation-timing-function: ease-in-out; 
+}
+@keyframes img_center1 {
+    0% {
+        transform: translateX(-200%);
+    }  
+}
+@keyframes img_center2 {
+    0% {
+        transform: translateX(200%);
+    }
+}
+@keyframes img_left {
+    0% {
+        transform: translateX(-150%); /* первый div*/
+    }
+}
+@keyframes img_right { /*последний див*/
+    0% {
+        transform: translateX(150%);
+    }
+}
+/*servise*/
+.vvv {
+    animation-name: moving_out;/*назва анімації*/
+}
+
+.img_1 {
+    animation-name: moving;/*назва анімації*/
+}
+.vvv, .img_1 {
+    animation-duration: 8s;/*тривалість анімації*/
+    animation-timing-function: linear; /*однакова швидкість від початку до кінця*/
+    transform-origin:center;/*точка оберту по горизонталі в центрі*/
+    animation-iteration-count: infinite;/*безкінечна анімація*/
+}
+
+@keyframes moving {
+    0% {transform: rotate(360deg);}
+}
+@keyframes moving_out {
+    0% {transform: rotate(-360deg);}
+}
