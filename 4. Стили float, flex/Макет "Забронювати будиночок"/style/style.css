@@ -1,0 +1,260 @@
+@import url(./normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    font-size: 10px;
+}
+body{
+    font-size: 2rem;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #FBE4FF;
+}
+
+header{
+    position: sticky;
+}
+.top_menu{
+   background-color: #243B93; 
+   display: flex; /* вирівнюємо єлементи*/
+   justify-content: space-between;
+   align-items: center;/* вирівнюю картинку зверху вниз*/
+   position: fixed;
+   width: 100%;
+}
+.nav{
+    min-width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /*вирівнювання по голонвій осі*/
+    align-items: center;/* по головній зверху вниз*/
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding-right: 10%;
+    letter-spacing: 0.16em;
+    margin: 0;
+}
+.nav a{
+    color: #FFF;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #2CBDEB;
+}
+.logo{
+    padding-left: 10%;
+    margin-top: 5px;
+}
+h1{
+    background-color: #BFF0FF;;
+    margin: 0;
+    color:#202846;
+    font-weight: 400;
+    font-size: 44px;
+    font-style: italic;
+    padding: 5% 0 0.5% 10%;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+h2{
+    color: rgba(0, 0, 0, 0.61);
+    font-weight: 400;
+    font-size: 28px;
+    padding: 1%;
+}
+
+section{
+    display: flex;
+    background: linear-gradient(87.05deg, #A9CBD6 0%, #01AFE6 100%);
+    margin-bottom: 3rem;
+}
+h3{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 3.5% 0 0 0;
+    color: #353C57;
+}
+.star:before {
+    position: relative;
+    content: "\2605";
+    font-size:50px;
+    top: -3vh;
+    left: -1vh;
+    color: #FFF;
+}
+section > img{
+    padding: 2.5% 2.3% 2% 4%;
+    width: 410px;
+    height: 220px;
+}
+hr{
+    border: none; /* Убираем границу */
+    background-color: #FFF; /* Цвет линии */
+    color: #FFF; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */
+    width: 70rem;
+    margin: 0;
+}
+.text{
+    background-color: #EDFBFF;
+    width: 70rem;
+    height: 16rem;
+    justify-content: center;
+    align-items: center;
+}
+.text > p{
+    text-align: left;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 2rem;
+    color:#202846;
+}
+button{
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFF;
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 4rem;
+    background-color: #243B93;
+}
+.btn{
+    margin-left: 105rem;
+    margin-top: 21rem;
+    position: absolute;
+}
+button:hover {
+    background-color: #EF075B;
+}
+section:hover{
+    background: #2CBDEB;
+    box-shadow: 0px 0px 60px 4px #2CBDEB;
+} 
+.star:hover:before{
+    color: #FFFF00;
+}
+
+
+.btn_up{
+    display: inline-block;
+    background-color:rgba(48, 12, 106, 0.3);
+    color:#FFF;
+    border-radius: 50px;
+    position: fixed;
+    right: 8rem;
+    bottom: 8rem;
+    width: 101px;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+    text-decoration: none;
+    transition: all 1s;
+    font-size: 50px;
+    text-align: center;
+}
+.two_header{
+    background: linear-gradient(90deg, #FFE601 0%, #55D6FF 100%);
+}
+.three_header{
+    background: linear-gradient(90deg, #54D6FF 0%, #FFE600 100%);
+}
+.two_header, .three_header{
+    padding: 1% 0 1% 10%;
+}
+header>p{
+    font-size: 40px;
+    color:#243B93;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57px;
+}
+footer{
+    background-color: #243B93;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.16em; 
+    color:#FFF;
+    align-items: center;
+}
+footer>p{
+    padding: 1% 0 1% 10%;
+}
+h5>a{
+    text-decoration: none;
+    color:#000;
+}
+.private{
+    margin: 0 auto;
+    display: flex;
+    width: 1210px;
+    background: linear-gradient(180deg, #859EFF 0%, rgba(105, 255, 210, 0.5) 100%);
+}
+.private_left{
+    padding-right: 7rem;
+    padding-top: 5rem;
+}
+.private_left>div{
+    padding: 1rem 10rem 1rem 15rem;
+    text-align: center;
+}
+.private_left>div>button{
+    width: 260px;
+}
+.private_right{
+    padding: 4rem 0 4rem 0;
+}
+.private_right>p{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+    color: #353C57;
+    margin: 2rem 0;
+}
+.private_right>hr{
+    width:57rem;
+}
+.btn_out{
+    text-align: center;
+    margin-top: 2rem;
+}
+.contact{
+    display: flex;
+    color:#000;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+}
+.contact_left{
+    display: flex;
+}
+.contact>div>div>hr{
+    background-color:#202846;
+    width: 20rem;
+    height: 0.3rem;
+}
+h4{
+    font-size: 32px;
+    font-weight: 400;
+    margin: 11px 0;
+}
+h5{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 11px 0;
+}
+summary{
+    background-color: #FFF;
+    color: rgba(0, 0, 0, 0.61);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    padding: 1.5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+}
