@@ -1,0 +1,105 @@
+@import url(./normalize.css);
+@font-face{
+    font-family: WorkSans-Bold;
+    src:url('../fonts/WorkSans-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: WorkSans-SemiBold;
+    src:url('../fonts/WorkSans-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face{
+    font-family: WorkSans-Regular;
+    src:url('../fonts/WorkSans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #FFB084;
+    font-family: WorkSans-Bold;
+}
+section {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+    margin: 5% 21%;
+}
+div{
+    background-color: white;
+    border-radius: 30px;
+    padding: 0 40px;
+}
+.box1 {
+    grid-column: 1/2;
+    grid-row: 1/7;
+    text-align: center;
+}
+.box1 p{
+    font-family: WorkSans-Regular;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: left;
+}
+.box1 img{
+    width:120px;
+    padding: 3%;
+}
+.photo{
+    margin: 0 auto;
+}
+h1{
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+}
+.box2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.box3 {
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+p{
+    margin:0;
+    margin-bottom: 2%;;
+}
+h2{
+    font-size: 18px;
+    line-height: 22px;
+    margin: 20px 0 10px 0;
+}
+.box4{
+    grid-row: 3/5;
+    box-shadow: 9px 9px 0px #29A71E;
+}
+ul{
+    padding-left: 15%;
+}
+.box5{
+    grid-row: 3/6;
+    box-shadow: 9px 9px 0px  #E13535;
+}
+.box6{
+    grid-row: 5/8;
+    box-shadow: 9px 9px 0px #3675B0;
+}
+.box7{
+    grid-column: 3;
+    grid-row: 6/8;
+}
+.box1, .box2, .box3, .box7 {
+    box-shadow: 9px 9px 0px #000000;
+}
+.box3 p, .box4 ul, .box5 ul, .box6 ul, .box7>p{
+    font-family: WorkSans-Regular;
+    font-size: 16px;
+    line-height: 20px;
+}
